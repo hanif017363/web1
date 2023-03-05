@@ -1,0 +1,139 @@
+1.style attribute inside tags than use color attribute to apply color - can be used in <p></p> and <h></h> tags
+
+ exmple
+
+#<h1 style="color: red;">Welcome</h1>
+#<p style="">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
+      impedit?
+    </p>
+# <a
+      style="text-decoration: none"
+      href="https://9anime.to/watch/berserk.ojmz/ep-1"
+      target="_blank"
+    >
+
+
+    in-line css :css which are applied in singular tag are called in-line css
+
+    example = <h1 style="color: red">Welcome</h1>
+
+    internal css- css which are written inside head tag are called internal css
+
+    exmple = <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      h1 {
+        color: darkorchid;
+      }
+    </style>
+  </head>
+
+
+  ### use external css to use it wrrite link tag up ward of title tag then write the source using/ in href attribute
+  
+  
+  
+  exmple =  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/New folder/css.css" />
+    <title>css</title>
+  </head>
+
+
+  4.attribute background color - to step text background color
+
+  h1 {
+  background-color: chartreuse;
+  color: #ff6a144d;
+}
+
+
+power system - in line>internal>external
+
+
+external css will be used most
+
+
+5.to use specificlly a css use class attribute then give a uncommon name,then use that name using dot as first and apply attribute 
+
+exmple ==  html- <h1 class="pre">okairi mienna</h1>
+
+css -   .pre {
+      color: darkgoldenrod;
+     background-color: black;
+     }
+
+#it can use on multiply tag
+
+exp =   <p class="pre">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere optio ad
+      aperiam repellendus culpa quisquam repellat, magni consequatur saepe
+      tempora?
+    </p>
+
+    <h1 class="pre">okairi mienna</h1>
+
+  .pre {
+  color: darkgoldenrod;
+  background-color: black;
+}  
+
+6.to use only on 1 tag just use id and use # first
+
+<h2 id="sos">Lorem, ipsum.</h2>
+#sos {
+  color: aliceblue;
+  background-color: black;
+}
+ 
+ it's better to use class
+
+ 7.use comment or ctrl+/ to hide code or to indicate a tag
+
+ example =  /* this is for lorem,ipsem  */
+
+#sos {
+  color: aliceblue;
+  background-color: black;
+}
+
+8.<div></div> tag can be use for css entire group
+ 
+
+ exp =  <div class="dox">
+      <h1>lorm</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id
+        culpa quis veritatis mollitia. Tempora porro libero vero deleniti
+        debitis magni ipsam?
+      </p>
+    </div>
+
+    /* this is for dox tag */
+
+.dox {
+  color: azure;
+  background-color: black;
+}
+
+9.use .+any word to create a div with class name 
+
+exp = .box = <div class="box">
+  
+</div>
+
+10.use this for image 
+
+
+{background-image: url("/img/Black\ Dragon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+11.we caan use css in entire <body></body> tag

@@ -1,0 +1,33 @@
+* {
+  outline: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: ;
+}
+.green {
+  height: 300px;
+  width: 600px;
+  background-color: green;
+
+  position: absolute;
+  top: 30%;
+
+  right: 30%;
+}
+.red {
+  height: 150px;
+  width: 150px;
+  background-color: crimson;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  right: 38%;
+}
+h1 {
+  background-color: blue;
+  color: brown;
+  display: inline;
+}

@@ -1,0 +1,243 @@
+
+                                    applied in index file - 1
+
+# start with (html:5)                       (date -08_02_2023)
+1.<p></P> - use for space or to create line between 2 sentence
+"ilove my coutry
+i love bangladesh"
+2.lorem 1-50 - for random sentence for practice
+3.heading comande(h1-h6) -  to customize important sentence's font size,for biggest use h1 and for smallest use h6
+4.anchor  <a href=""></a> - to link between two pages first right down a text between (><) then paste a workin web site link between ("").
+exmple-  <a href="https://www.youtube.com/">youtube</a>
+5.open link in new tab <a href="" target="_blank"></a> - to open link in new tab just use (target="") inside anchor commande 
+the write (_blank) commande
+
+example = <a href="https://www.youtube.com/" target="_blank">coder</a>
+
+6.<b></b> - to make sentence BOLD 
+example = bangladesh
+
+
+7.<strong></strong> - to make sentence bold work same as (<b></b>) tag,BUT using strong tag is better
+
+8.<i></i> - for make sentence italic
+exmple = <p><i>Lorem ipsum dolor sit amet.</i></p> 
+
+9.<em></em> - for makin sentence italic same as (<i></i>) but using this is better
+
+
+10.<br> - to break between line 
+
+example= i eat rice 
+  <br>
+   <br>                    = the more you use <br> the more the space or distance increase 
+   i eat rice       
+
+
+
+
+                                                  (date - 09.02.23)
+
+
+11.<sup></sup> - use for superscript a letter above another
+
+example =  <p>a<sup>2</sup></p> = a2
+
+
+
+
+12.<sub></sub> -  to subscript a letter under another
+
+
+exmple =  b<sub>2</sub></p>
+
+13.<img src="" alt="">  -  to add image from internet to a website.first copy a reliable web image address as you please,then paste it src attribute,the write ("image not found") in alt atrribute which is necessery.
+
+emp = <img src="https://upload.wikimedia.org/wikipedia/en/d/db/GutsBerserk.PNG" alt="picture not found"> 
+
+
+to customize width of a image just type (width="" ) then type your size prefernce
+
+exp = <img width="300"  src="https://upload.wikimedia.org/wikipedia/en/d/db/GutsBerserk.PNG" alt="picture not foound"> 
+
+## to import a image from internel source to a web site just type (/folder name /img name) in (src="").
+
+exmp = <img src="/img/download (1).jpg" alt="picture not found">
+
+## to go back one folder behinde jut type (../folder name/img name)
+exmple = <img width="260" src="../e    clipse-merlinjpg-1a75c5f128ceb808.jpg" alt="">
+
+
+
+
+14.ctrl+/  -  to hide a code from website just select it then (press and hold ctrl and / key)
+
+
+
+15.<ul></ul> -  to create unorder list 
+
+16.<li></li>  -   to create list element
+
+exmple =  
+  <ul>
+    <li>guts</li>
+    <li>gin</li>
+    <li>akira</li>
+    <li>any</li>
+  </ul>
+
+17. <ol></ol> - to create ordered list
+exmple =  <ol>
+  <li>guts</li>
+  <li>gin</li>
+  <li>gon</li>
+  <li>any</li>
+</ol>
+
+
+to cutomize type just write type="" atrribute in <ol>
+ then type 1 or a or any as your prefernce
+
+
+ exmple =  <ol type="I">
+  <li>guts</li>
+  <li>gin</li>
+  <li>gon</li>
+  <li>any</li>
+</ol>
+
+
+
+
+
+
+18.copy youtube iframe link and paste inside of your code  in order to show in your website
+
+exmple = <iframe width="560" height="315" src="https://www.youtube.com/embed/f05I0PVBGZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+19.<div></div> -  to keep html content into a division 
+
+exmple = <div><img width="260" src="https://upload.wikimedia.org/wikipedia/en/d/db/GutsBerserk.PNG" alt="picture not foound">
+
+
+  <img width="260" src="/img/download (1).jpg" alt="picture not found">
+
+
+  <img width="260" src="../eclipse-merlinjpg-1a75c5f128ceb808.jpg" alt="">
+
+</div>
+
+
+
+
+20.<button></button> -  to create a button to click
+
+
+21.<input type="text">  -  to input text from visitor
+
+inpute types -
+
+#text - can put random ward
+#password - will hide the words
+#radio - for option (using name attribute will let user choice one order )
+
+example = <input name="gender" type="radio"> Male
+<input name="gender" type="radio"> Female
+
+
+
+
+#placeholder attribute can be placed inside input to show charecters on the input box 
+
+example  =  <input type="text" placeholder="your name">
+ 
+ #value =  to fillup bar with a word automaticlly
+
+ example = <input type="text" value="name">
+
+# always put input code inside <form action=""></form>
+
+example  =  <form action=""><input type="password" placeholder="password"></form>
+
+
+22.<table></table> - to create table 
+#tr for row then put data into this tag usin td
+#alt+shift+down arrow to copy paste tag downward
+
+ example = <table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Point</th>
+    <th>Team</th>
+  </tr>
+  <tr>
+    <td>lord</td>
+    <td>78654</td>
+    <td>drosel</td>
+  </tr>
+  <tr>
+    <td>baren</td>
+    <td>54682</td>
+    <td>abbachia</td>
+  </tr>
+  <tr>
+    <td>buccratie</td>
+    <td>68521</td>
+    <td>dorobsn</td>
+  </tr>
+</table> 
+
+
+23.<audio controls src=""></audio> - to load audio file in website,use / in src to browse folder
+
+24.<video controls src="/media/Jojo Drip Part 2 - Villain Edition.mp4" width="200" ></video> - for video loadition
+
+# use autoplay attribute for autoplay featers and controls for player
+
+
+25.<abbr title=""></abbr> - for elaboration of a abbriveted word
+
+#title attribute helps to highlight a elaboration.it can be use in <p></p>,<strong></strong> tag
+
+exmple = <p title="country">i love bangladesh</p>
+
+<strong title="clash of clan">COC</strong>
+
+<abbr title="clash of clan">coc</abbr>
+
+
+
+###<h1 title="yi">proro</h1>
+
+1.<h1></h1> === is tag
+2.title ==== is attribute
+3.whole code is called element
+4.proror ==== is called value or content
+5.those which dosent show or have no valueable output on web are called semantic tags for example body,head,html etc.
+
+
+26.<textarea placeholder="" ></textarea> - for add description box.
+
+
+27.<label for="2">your Name</label><br><br>
+
+<input id="2" type="text">
+
+
+for input instraction set same value in both for="" and id=""
+to sync across the value and tags 
+
+28.<select ></select> - to create selective value to choose
+
+
+29.<dl>
+  <dt>hot</dt>
+  <dd>milk</dd>
+  <dd>tea</dd>
+  <dd>coffee</dd>
+  <dt>cold</dt>
+  <dd>milk</dd>
+  <dd>juice</dd>
+  <dd>coffee</dd>
+</dl> -  use as description list

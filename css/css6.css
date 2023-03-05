@@ -1,0 +1,33 @@
+* {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 3000px;
+  width: 3000px;
+}
+.box {
+  height: 400px;
+  width: 800px;
+  margin: auto;
+}
+.box img {
+  height: 50%;
+  width: 20%;
+  margin: auto;
+}
+
+.box img.a {
+  border: 5px dashed crimson;
+  z-index: 99;
+  position: relative;
+}
+.box img.s {
+  border: 4px solid brown;
+  margin: -50px;
+  z-index: 98;
+  position: relative;
+  opacity: 0.4;
+}

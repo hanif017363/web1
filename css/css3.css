@@ -1,0 +1,31 @@
+* {
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+}
+body {
+  width: 3000px;
+}
+.box {
+  height: 200px;
+  width: 80%;
+  background-color: rgb(231, 20, 62);
+}
+@media screen and (max-width: 950px) {
+  .box {
+    background-color: black;
+  }
+}
+.max {
+  height: 200px;
+  width: 60%;
+  background-color: blue;
+
+  position: absolute;
+  top: 30%;
+}
+@media screen and (min-width: 550px) and (max-width: 880px) {
+  .max {
+    background-color: crimson;
+  }
+}

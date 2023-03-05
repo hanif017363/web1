@@ -1,0 +1,55 @@
+* {
+  border: 0;
+  outline: 0;
+  margin: 0;
+}
+body {
+  height: 3000px;
+  width: 3000px;
+}
+h1 {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  font-size: 16px;
+  color: chartreuse;
+
+  text-align: center;
+  padding: 30px;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  padding: 50px;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  overflow: scroll;
+}
+a {
+  height: 20px;
+  width: 56px;
+  color: cornsilk;
+  background-color: blue;
+  text-decoration: none;
+  border: solid;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 50%;
+  padding: 5px;
+  margin: 60px;
+  transition: 0.4s;
+}
+a:hover {
+  background-color: crimson;
+  color: cadetblue;
+}
+a:active {
+  background-color: black;
+  color: blueviolet;
+}
+.box:focus {
+  background-color: black;
+}
